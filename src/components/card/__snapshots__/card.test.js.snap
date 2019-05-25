@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Card renders correctly 1`] = `
+<article
+  className="card"
+>
+  <header
+    className="card__header"
+  >
+    <h1
+      className="card__title"
+    >
+      <img
+        alt="test-screen-name"
+        className="card__image"
+        src="test-image"
+      />
+      <a
+        className="card__name"
+        href="test-url"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        test-name
+      </a>
+      <a
+        className="card__nickname"
+        href="test-url"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        @
+        test-screen-name
+      </a>
+    </h1>
+  </header>
+  <div
+    className="card__body"
+  >
+    <p>
+      test-description
+    </p>
+  </div>
+  <footer
+    className="card__footer"
+  >
+    <span
+      className="card__likes"
+    >
+      ❤
+    </span>
+  </footer>
+</article>
+`;
